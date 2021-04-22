@@ -7,12 +7,12 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <ul className="Menu">
+        <div className="Menu">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/portfilo">Portfilo</Link>
           <Link to="/hobbies">Hobbies</Link>
-        </ul>
+        </div>
         <Routes />
       </Router>
     );
