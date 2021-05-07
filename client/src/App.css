@@ -1,33 +1,4 @@
 .App {
   text-align: center;
-}
-
-.App-header {
   background-color: #173879;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #060e04;
-}
-
-.Menu {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  font-size: calc(10px + 2vmin);
-  background: #173879;
-  padding: 10px 0;
-  font-weight: bold;
-}
-
-.Menu a {
-  color: white;
-  text-decoration: none;
 }
